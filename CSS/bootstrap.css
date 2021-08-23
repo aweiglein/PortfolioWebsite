@@ -240,6 +240,9 @@ th.right {
   text-align: right;
 }
 
+tr {
+  vertical-align: text-bottom;
+}
 label {
   display: inline-block;
   margin-bottom: 0.5rem;
@@ -4071,6 +4074,7 @@ input[type="button"].btn-block {
   flex-grow: 1;
   -ms-flex-align: center;
   align-items: center;
+  text-align: center;
 }
 
 .navbar-toggler {
@@ -9029,6 +9033,7 @@ a.text-dark:hover, a.text-dark:focus {
   .navbar {
     display: none;
   }
+  
   .badge {
     border: 1px solid #000;
   }
