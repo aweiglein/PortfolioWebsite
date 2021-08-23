@@ -233,6 +233,11 @@ caption {
 
 th {
   text-align: inherit;
+  border-bottom: 1px solid rgb(68, 70, 73);
+}
+
+th.right {
+  text-align: right;
 }
 
 label {
@@ -945,6 +950,7 @@ pre code {
     -ms-flex: 0 0 66.666667%;
     flex: 0 0 66.666667%;
     max-width: 66.666667%;
+    padding-left: 30px;
   }
   .col-sm-9 {
     -ms-flex: 0 0 75%;
