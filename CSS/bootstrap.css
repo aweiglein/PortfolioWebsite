@@ -270,7 +270,7 @@ form {
   width:70%
 }
 
-*:focus, :active {
+*:focus {
   outline: none;
 }
 
@@ -3984,6 +3984,7 @@ input[type="button"].btn-block {
   color: #495057;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
+  font-weight: bold;
 }
 
 .nav-tabs .dropdown-menu {
